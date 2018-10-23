@@ -173,7 +173,7 @@ a {
   outline: none !important; }
   a:hover {
     text-decoration: none;
-    color: #1DD2C8; }
+    color: #53a573; }
   a:hover,
   a :focus,
   a :active {
@@ -198,7 +198,7 @@ h1 {
   border-bottom: 1.5px solid transparent; }
 
 .active-page .menu-link {
-  border-bottom: 1.5px solid #1DD2C8; }
+  border-bottom: 1.5px solid #53a573; }
 
 .fixed-header .active-page .menu-link::before {
   background: transparent !important; }
@@ -330,14 +330,14 @@ header {
     header .fixed-header .menu-link {
       color: #2b363f !important; }
     header .fixed-header .meniu-button {
-      border: 1px solid #1DD2C8 !important;
-      color: #1DD2C8 !important; }
+      border: 1px solid #53a573 !important;
+      color: #53a573 !important; }
     header .fixed-header .meniu-button.custom-button:hover {
       color: #fff !important; }
     header .fixed-header .menu-link::before {
       background: #2b363f !important; }
     header .fixed-header .link--brand::before {
-      color: #1DD2C8 !important; }
+      color: #53a573 !important; }
   @media (max-width: 1435px) {
     header .fixed-header {
       margin-left: 0 !important;
@@ -406,12 +406,9 @@ header {
         content: attr(data-letters);
         position: absolute;
         z-index: 2;
-        overflow: hidden;
         color: #FFFFFF;
         white-space: nowrap;
         width: 30%;
-        -webkit-transition: width 0.3s 0.1s;
-        transition: width 0.3s 0.1s;
         top: 2px; }
       header .homepage-hero-module .navbar-default .link--brand:hover::before {
         width: 100%; }
@@ -865,7 +862,7 @@ portofolio-button {
 
 @media all and (max-width: 1270px) and (min-width: 960px) {
   .portfolio-order-link {
-    color: #1DD2C8;
+    color: #53a573;
     text-transform: initial;
     position: relative; }
     .portfolio-order-link i {
@@ -897,7 +894,7 @@ portofolio-button {
     text-align: center;
     margin-top: 50px; }
     .portfolio-content-wrapper .portfolio-order-link {
-      color: #1DD2C8;
+      color: #53a573;
       text-transform: initial;
       position: relative; }
       .portfolio-content-wrapper .portfolio-order-link i {
@@ -915,7 +912,7 @@ portofolio-button {
   .project-description-wrapper {
     text-align: center; }
   .portfolio-order-link {
-    color: #1DD2C8;
+    color: #53a573;
     text-transform: initial; } }
 
 @media (max-width: 760px) {
@@ -1068,7 +1065,7 @@ portofolio-button {
     display: inline-block;
     transition: all 0.3s ease 0s; }
   .facts .category-price {
-    color: #1DD2C8;
+    color: #53a573;
     font-family: "Rubik Light", Arial, sans-serif;
     font-size: 50px; }
   .facts .category-text {
@@ -1077,7 +1074,7 @@ portofolio-button {
     margin: 0 auto;
     max-width: 1200px; }
   .facts .round-button {
-    color: #1DD2C8; }
+    color: #53a573; }
 
 @media (max-width: 760px) {
   .pricing .category-price {
@@ -1147,7 +1144,7 @@ portofolio-button {
     color: #2b363f; }
   .testimonials .slick-next:hover,
   .testimonials .slick-prev:hover {
-    color: #1DD2C8 !important; }
+    color: #53a573 !important; }
 
 .testimonials .slide-wrapper {
   display: flex !important;
@@ -1326,7 +1323,7 @@ footer {
     text-decoration: none; }
     footer a:hover {
       text-decoration: underline;
-      color: #1DD2C8; }
+      color: #53a573; }
     footer a :focus,
     footer a :active {
       outline: none !important; }
@@ -1456,7 +1453,7 @@ footer {
   z-index: 1; }
 
 .custom-button::after {
-  background: #1DD2C8 none repeat scroll 0 0;
+  background: #53a573 none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
@@ -1477,7 +1474,7 @@ footer {
   outline: 0 none;
   position: relative;
   transition: all 0.3s ease 0s;
-  border: 1px solid #1DD2C8;
+  border: 1px solid #53a573;
   overflow: hidden;
   font-family: 'PT Sans', sans-serif;
   font-size: 17px;
@@ -1506,13 +1503,13 @@ footer {
   padding: 12px 32px !important; }
 
 .home-page .meniu-button.custom-button.header:hover {
-  color: #1DD2C8 !important; }
+  color: #53a573 !important; }
 
 .home-page .meniu-button.custom-button.header:after {
   background: #fff none repeat scroll 0 0; }
 
 .btn-p {
-  background: #1DD2C8;
+  background: #53a573;
   border: none;
   color: #fff;
   font-weight: bold;
@@ -1522,15 +1519,15 @@ footer {
   border: 1px solid #53a573; }
 
 .btn-p:hover {
-  background: #1DD2C8; }
+  background: #53a573; }
 
 .portofolio {
-  color: #1DD2C8; }
+  color: #53a573; }
 
 .round-small-button {
   border-radius: 30px; }
   .round-small-button:hover {
-    border: 2px solid #1DD2C8; }
+    border: 2px solid #53a573; }
 
 .cbutton {
   position: absolute;
@@ -1654,14 +1651,14 @@ footer {
     animation-duration: 1s;
     animation-fill-mode: both; }
   .services .box-services i, .services .svg {
-    color: #1DD2C8;
+    color: #53a573;
     font-size: 45px;
     left: 0;
     position: absolute; }
   .services .box-services p {
     padding: 0 20px 20px 0; }
   .services i, .services .svg {
-    color: #1DD2C8;
+    color: #53a573;
     font-size: 45px;
     left: 0;
     position: absolute; }
@@ -1844,7 +1841,7 @@ footer {
     .popular .flex-alignment-about .second-about .mt.title {
       padding-bottom: 60px; }
     .popular .flex-alignment-about .second-about a {
-      color: #1DD2C8;
+      color: #53a573;
       text-decoration: none;
       position: relative;
       display: inline-block;

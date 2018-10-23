@@ -105,12 +105,9 @@ header {
                 content: attr(data-letters);
                 position: absolute;
                 z-index: 2;
-                overflow: hidden;
                 color: $brand-color;
                 white-space: nowrap;
                 width: 30%;
-                -webkit-transition: width 0.3s 0.1s;
-                transition: width 0.3s 0.1s;
                 top: 2px;
             }
             .link--brand:hover::before {
