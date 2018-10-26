@@ -488,7 +488,7 @@ header {
   .photo {
     width: 80%; }
   .jumbotron-text {
-    display: none; } }
+    /*display: none*/ } }
 
 @media all and (max-width: 965px) and (min-width: 960px) {
   .menu-link {
@@ -1374,7 +1374,7 @@ footer {
     padding-left: 95px;
     text-align: left; }
   .services .section-heading {
-    padding-bottom: 88px; }
+    padding-bottom: 0px; }
   .services .box-services i, .services .svg {
     border: 1px solid #E1E7EA;
     padding: 10px; }

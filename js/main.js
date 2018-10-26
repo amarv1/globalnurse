@@ -36,39 +36,39 @@
         }
     }
 
-    function customWidth(formId, clickedElem, hiddenText) {
-        var formId = '#' + formId,
-            formWidth = $(formId)[0].getBoundingClientRect().width,
-            elemWidth = $(formId + ' ' + clickedElem)[0].getBoundingClientRect().width;
+    // function customWidth(formId, clickedElem, hiddenText) {
+    //     var formId = '#' + formId,
+    //         formWidth = $(formId)[0].getBoundingClientRect().width,
+    //         elemWidth = $(formId + ' ' + clickedElem)[0].getBoundingClientRect().width;
 
-        $(formId + ' ' + clickedElem).click((function () {
-            var i = 0;
-            return function (e) {
-                $(this).toggleClass('hide-button-text').animate({
-                    width: (++i % 2) ? formWidth - 10 : elemWidth
-                }, 500, function () {
-                    window.setTimeout(function () {
-                        if ($('.hide-button-text').length > 0) {
-                            $('.hide-button-text').click();
-                        }
-                    }, 3000);
-                });
-                if ($(hiddenText).hasClass('sign-text-show') == false) {
-                    window.setTimeout(function () {
-                        $(hiddenText).addClass('sign-text-show');
-                        $(formId + ' ' + clickedElem + ":contains('Sign Up')").html("<span class='sign-text sign-text-show'>Thank you for subscribing!</span>");
-                    }, 1000);
-                } else {
-                    $(hiddenText).removeClass('sign-text-show');
-                    $(formId + ' ' + clickedElem).html("<span class='sign-text'>Thank you for subscribing!</span>Sign Up");
-                }
-                e.preventDefault();
-            }
-        })());
-        if ($(hiddenText).hasClass('sign-text-show') == true) {
+    //     $(formId + ' ' + clickedElem).click((function () {
+    //         var i = 0;
+    //         return function (e) {
+    //             $(this).toggleClass('hide-button-text').animate({
+    //                 width: (++i % 2) ? formWidth - 10 : elemWidth
+    //             }, 500, function () {
+    //                 window.setTimeout(function () {
+    //                     if ($('.hide-button-text').length > 0) {
+    //                         $('.hide-button-text').click();
+    //                     }
+    //                 }, 3000);
+    //             });
+    //             if ($(hiddenText).hasClass('sign-text-show') == false) {
+    //                 window.setTimeout(function () {
+    //                     $(hiddenText).addClass('sign-text-show');
+    //                     $(formId + ' ' + clickedElem + ":contains('Sign Up')").html("<span class='sign-text sign-text-show'>Thank you for subscribing!</span>");
+    //                 }, 1000);
+    //             } else {
+    //                 $(hiddenText).removeClass('sign-text-show');
+    //                 $(formId + ' ' + clickedElem).html("<span class='sign-text'>Thank you for subscribing!</span>Sign Up");
+    //             }
+    //             e.preventDefault();
+    //         }
+    //     })());
+    //     if ($(hiddenText).hasClass('sign-text-show') == true) {
 
-        }
-    }
+    //     }
+    // }
 
     var moveElementOnSmall = function () {
         var windowWidth = $(window).width();
@@ -186,7 +186,7 @@
             fixedHeader();
             fullscreenHeroSection();
         }
-        customWidth("sign-up-form", "a", "span");
+        // customWidth("sign-up-form", "a", "span");
         moveElementOnSmall();
 
         // Run the function in case of window resize
