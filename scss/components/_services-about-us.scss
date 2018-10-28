@@ -233,7 +233,17 @@
         flex: 0 0 50%;
         display: flex;
         justify-content: flex-start;
-        background-image: url('../images/working-together.jpg') !important;
+        background-image: url('../images/for-companies.jpg') !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 380px 0px 250px 0px;
+    }
+    .image2 {
+        flex: 0 0 50%;
+        display: flex;
+        justify-content: flex-start;
+        background-image: url('../images/our-promise.jpg') !important;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
