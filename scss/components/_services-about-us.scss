@@ -231,23 +231,17 @@
     display: flex;
     .image {
         flex: 0 0 50%;
-        display: flex;
-        justify-content: flex-start;
-        background-image: url('../images/for-companies.jpg') !important;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 380px 0px 250px 0px;
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
     .image2 {
         flex: 0 0 50%;
-        display: flex;
-        justify-content: flex-start;
-        background-image: url('../images/our-promise.jpg') !important;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 380px 0px 250px 0px;
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
     .text-description {
         flex: 0 0 36%;
